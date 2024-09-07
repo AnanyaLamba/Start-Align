@@ -1,0 +1,40 @@
+.task-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .task-card.high-priority {
+    border-left: 4px solid red;
+  }
+  
+  .task-card.medium-priority {
+    border-left: 4px solid orange;
+  }
+  
+  .task-members {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .member-avatar {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-subtask-btn {
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

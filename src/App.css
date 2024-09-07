@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.app-container{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.app-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.app-right {
+  width: 100%;
+  /* background-color: blue; Ensure it fills available space */
+  /* display: flex;
+  flex-direction: column; */
+}
